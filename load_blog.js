@@ -1,7 +1,6 @@
 let href = window.location.href
 let i = href.length-1
 
-
 // Fetch the list of valid blog pages
 var blogs = []
 fetch('blogs.json')
@@ -47,13 +46,16 @@ function is_in(list, element) {
   }
 
 function show_blog(blog_raw) {
-    p = document.createElement("p")
-    p.innerText = blog_raw
-    document.body.appendChild(p)
+  var converter = new showdown.Converter();
+  var html = converter.makeHtml(blog_raw);
 
-    a = document.createElement("a")
-    a.innerText = "<<< Return Home"
-    console.log(window.location.href.split("/"))
-    a.href = "http://" + window.location.href.split("/")[2]
-    document.body.appendChild(a)
+  p = document.createElement("p")
+  p.innerHTML = html
+  document.body.appendChild(p)
+
+  a = document.createElement("a")
+  a.innerText = "<<< Return Home"
+  console.log(window.location.href.split("/"))
+  a.href = "http://" + window.location.href.split("/")[2]
+  document.body.appendChild(a)
 }
