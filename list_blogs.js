@@ -15,7 +15,7 @@ function show_blog_list(blogs) {
     blogs.forEach(blog => {
         let a = document.createElement("a")
         a.setAttribute("href", window.location.href + blog.slice(0, blog.length-3))
-        a.innerText = blog.slice(0, blog.length-3)
+        a.innerHTML = blog.slice(0, blog.length-3)+"<br>"
         body.appendChild(a)
     });
 }
