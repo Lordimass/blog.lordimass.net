@@ -1,5 +1,58 @@
+/****************  EXTRA FONT FACES  ****************/
+
+@font-face {
+    font-family: "Omnes Light";
+    src: url("fonts/Omnes\ Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Omnes Medium";
+    src: url("fonts/Omnes\ Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Omnes Pro Bold";
+    src: url("fonts/Omnes_Pro_Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Omnes Black";
+    src: url("fonts/Omnes\ Black.ttf") format("opentype");
+}
+
+/*****************************************************/
+
 body {
     margin-left: 15vw;
     margin-right:15vw;
     background-color: #cfc793;
+}
+
+img {
+    width: 75%;
+}
+
+h1 {
+    font-family: "Omnes Pro Bold";
+}
+
+p {
+    font-family: "Omnes Medium";
+}
+
+code {
+    font-size: larger;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    body {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    img {
+        width: 100%;
+    }
 }
