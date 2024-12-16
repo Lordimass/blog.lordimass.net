@@ -23,13 +23,13 @@
 /*****************************************************/
 
 body {
-    margin-left: 15vw;
-    margin-right:15vw;
+    margin-left: 30vw;
+    margin-right:30vw;
     background-color: #cfc793;
 }
 
 img {
-    width: 75%;
+    width: min(100%, 65vh);
 }
 
 h1 {
@@ -53,6 +53,6 @@ code {
     }
 
     img {
-        width: 100%;
+        width: min(100%, 50vh);
     }
 }
