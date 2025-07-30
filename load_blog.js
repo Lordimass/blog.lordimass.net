@@ -21,11 +21,11 @@ function load_blog(blogs) {
             break
         }
     }
-    let subdirectory = href.substring(i, href.length).replaceAll("%20", " ")
+    let fileName = href.substring(i, href.length).replaceAll("%20", " ") + ".md"
 
     // If the blog exists, load it
-    if (is_in(blogs, subdirectory + ".md")) {
-        fetch('blog_markdowns/'+ subdirectory + ".md")
+    if (is_in(blogs, fileName)) {
+        fetch('blog_markdowns/'+ fileName)
         .then(response => response.text())
         .then(data => {
           show_blog(data)
@@ -33,6 +33,8 @@ function load_blog(blogs) {
         .catch(error => {
           console.error('Error fetching data:', error);
         });
+    } else {
+      console.error(`Could not find blog ${fileName}`)
     }
 }
 

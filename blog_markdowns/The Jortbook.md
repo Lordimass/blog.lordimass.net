@@ -31,7 +31,7 @@ The idea was to create a denim cover for the book, which I achieved by cutting o
 
 The keen eyed will notice that in a previous picture and possibly in other places I referred to the Jortbook as the Jotebook, the less keen eyed will notice that Jotebook makes a lot more sense than Jortbook. The thing is though that I don't care and Jortbook sounds cooler so that's what you get.
 
-I also mentioned that I had recieved a commission to create anothere Jortbook! That was from the original inspiration of the book himself, Sir Salubrious! Thank you very much and I'm glad you liked it, I'll begin work on yours as soon as possible, and hopefully, with some proper resources, it'll be even better than the first version!
+I also mentioned that I had received a commission to create another Jortbook! That was from the original inspiration of the book himself, Sir Salubrious! Thank you very much and I'm glad you liked it, I'll begin work on yours as soon as possible, and hopefully, with some proper resources, it'll be even better than the first version!
 
 I hope you appreciate the Jortbook as much as I do, but for now...
 
